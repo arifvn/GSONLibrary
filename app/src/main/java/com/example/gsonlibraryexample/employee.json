@@ -3,7 +3,18 @@
     "mCity": "Semarang",
     "mCountry": "Indonesia"
   },
-  "mAge": 21,
+  "age": 21,
+  "family": [
+    {
+      "mAge": 30,
+      "mRole": "Wife"
+    },
+    {
+      "mAge": 15,
+      "mRole": "Daughter"
+    }
+  ],
   "mFirst_Name": "M",
   "mMail": "arifin@gmail.com"
 }
+
