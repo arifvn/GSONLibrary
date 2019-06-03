@@ -13,13 +13,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Gson gson = new Gson();
+        Address address = new Address("Indonesia", "Semarang");
 
-        //SERIALIZATION (convert Java Object to JSON format)
-        Employee employee = new Employee("M", 21, "arifin@gmail.com");
-        String json = gson.toJson(employee);
+        /*//SERIALIZATION (convert Java Object to JSON format)
+        Employee employee = new Employee("M", 21, "arifin@gmail.com", address);
+        String json = gson.toJson(employee);*/
 
         //DE SERIALIZATION (convert JSON to Java Object)
-        String mJson = "{\"mAge\":21, \"mFirst_Name\":\"M\", \"mMail\":\"arifin@gmail.com\"}";
+        String mJson = "{\"address\":{\"mCity\":\"Semarang\",\"mCountry\":\"Indonesia\"},\"mAge\":21,\"mFirst_Name\":\"M\",\"mMail\":\"arifin@gmail.com\"}";
         Employee employee1 = gson.fromJson(mJson, Employee.class);
 
     }

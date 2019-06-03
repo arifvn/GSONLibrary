@@ -1,5 +1,9 @@
 {
+  "address": {
+    "mCity": "Semarang",
+    "mCountry": "Indonesia"
+  },
   "mAge": 21,
-  "mFirstName": "M",
+  "mFirst_Name": "M",
   "mMail": "arifin@gmail.com"
 }

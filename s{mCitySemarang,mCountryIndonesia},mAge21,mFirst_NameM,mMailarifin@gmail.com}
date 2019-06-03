@@ -1,0 +1,16 @@
+[33mcommit f123a2e29427cad1ac20bbd83b3da68a89b67e03[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: maftukhatul arifin <maftukhatularifin13@gmail.com>
+Date:   Mon Jun 3 08:42:15 2019 +0700
+
+    Add nested object
+
+[1mdiff --git a/app/src/main/java/com/example/gsonlibraryexample/Address.java b/app/src/main/java/com/example/gsonlibraryexample/Address.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..795953c[m
+[1m--- /dev/null[m
+[1m+++ b/app/src/main/java/com/example/gsonlibraryexample/Address.java[m
+[36m@@ -0,0 +1,4 @@[m
+[32m+[m[32mpackage com.example.gsonlibraryexample;[m
+[32m+[m
+[32m+[m[32mpublic class Address {[m
+[32m+[m[32m}[m
